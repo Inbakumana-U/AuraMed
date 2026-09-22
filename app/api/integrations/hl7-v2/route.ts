@@ -61,6 +61,7 @@ export async function POST(req: Request) {
           loinc,
           testName,
           value: units ? `${value} ${units}` : value,
+          units: units || '',
           refRange,
           abnormalFlag,
         });
