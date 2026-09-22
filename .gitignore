@@ -1,0 +1,8 @@
+# Environment files are secrets; keep the template committed.
+.env.local
+.env*.local
+
+# Next.js build output and dependencies
+.next/
+node_modules/
+out/
